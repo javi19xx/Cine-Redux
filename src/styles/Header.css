@@ -1,0 +1,46 @@
+.cinema-header {
+  background-color:#3a352f;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 4rem;
+  width: 220px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.a1{
+  font-size: 20px;
+}
+nav {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  margin-right: 50px;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}

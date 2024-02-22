@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .component {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #000;
+  }
+  
+  .left {
+    text-align: center;
+  }
+  
+  .middle {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: center;
+  }
+  

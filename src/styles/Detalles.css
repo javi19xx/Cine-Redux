@@ -1,0 +1,65 @@
+.p1 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.boton1 {
+    background-color: #5ee0ae;
+}
+
+.movie-details-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.movie-details {
+    padding-left: 20px; 
+}
+
+.details-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.details-left {
+    flex: 1;
+}
+
+.poster-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.poster {
+    width: 400px; 
+    height: auto;
+}
+#numEntradas {
+  width: 50px; 
+  padding: 8px;
+  font-size: 16px; 
+  border: 2px solid #ccc;
+  border-radius: 5px; 
+  outline: none; 
+  
+}
+
+.boton {
+  background-color: white; 
+  border: none; 
+  color: black; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px;
+  margin: 4px 2px; 
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+
